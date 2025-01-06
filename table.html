@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Table</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audioVedio.html">Vedio</a></li>
+                <li>
+                    <a href="formup.html">Form</a>
+                    <ul class="dropdown">
+                        <li><a href="audioVedio.html">Vedio</a></li>
+                        <li>
+                            <a href="formup.html">Form</a>
+                            <ul class="dropdown">
+                                <li><a href="audioVedio.html">Vedio</a></li>
+                                <li><a href="formup.html">Form</a></li>
+                                <li><a href="table.html">Table</a></li>
+                                <li><a href="TourBlogs.html">Bolgs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="TourBlogs.html">Bolgs</a></li>
+                    </ul>
+                </li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="TourBlogs.html">Bolgs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>HTML Table</h1>
+        <table>
+            <caption>Employee Info</caption>
+            <thead>
+                <th>No</th>
+                <th>Names</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steve jobs</td>
+                    <td>Apple</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Google</td>
+                    <td>$1500</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mark Jukerbarg</td>
+                    <td>Facebook</td>
+                    <td>$1800</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="2">Total employee: 4</td>
+            </tfoot>
+        </table>
+        <ul>
+            <li>Table: Table</li>
+            <li>Table head: thead</li>
+            <li>Table body: tbody</li>
+            <li>Table footer: tfoot</li>
+            <li>Table row: tr</li>
+            <li>Table Data or cell: td</li>
+            <li>Table Head Cell: th</li>
+
+        </ul>
+    </main>
+</body>
+
+</html>
