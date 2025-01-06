@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Fill Up</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audioVedio.html">Vedio</a></li>
+                <li><a href="formup.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="TourBlogs.html">Bolgs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section>
+            <h2>Please Fill up the form</h2>
+            <form>
+                <label for="name"> Your Name:
+                    <input id="name" type="text" placeholder="your name" name="" id="">
+                </label>
+                <label for="email">Your Email:
+                    <input id="email" type="email" placeholder="your email" name="" id="">
+                </label>
+                <label for="phone">Your Phone:
+                    <input id="phone" type="text" placeholder="your phone no" name="" id="">
+                </label>
+                <fieldset>
+                    <legend>Pick one!</legend>
+                    <label for="chitoi">
+                        <input type="radio" name="pitha" id="chitoi">Chitoi
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">Vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="puri">Puri
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Select vorta you want to take</legend>
+                    <label for="sorisha">
+                        <input type="checkbox" name="vorta" id="Sorisha">Sorisha
+                    </label>
+                    <label for="Shukti">
+                        <input type="checkbox" name="vorta" id="Shutki">Shukti
+                    </label>
+                    <label for="Tomato">
+                        <input type="checkbox" name="vorta" id="Tomato">Tomato
+                    </label>    
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="20" rows="5"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
